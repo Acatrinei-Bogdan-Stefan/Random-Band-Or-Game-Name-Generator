@@ -67,3 +67,9 @@ button:hover {
 button:active {
     background-color: #066e48; 
 }
+
+.description-constainer{
+    width: 100%;
+    padding-left: 50px;   
+}
+

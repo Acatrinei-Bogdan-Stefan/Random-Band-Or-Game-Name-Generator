@@ -75,6 +75,14 @@ function addWord(){
     }
 }
 
+// Add Word using the Enter key
+getWordInput.addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+        addWord()
+      }
+    
+  });
+
 
 
 
